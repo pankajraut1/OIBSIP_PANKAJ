@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    background-image: url(/Temperature-Converter/Img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.text-center{
+    font-weight: 900;
+}
+
+#fa{
+    font-size: 60px;
+    margin-top: 5px;
+}
+.txt{
+    color: aliceblue;
+}
+
+form{
+    background-color:slateblue;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#tempCalc label{
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+ [type="submit"]{
+    height: 35px;
+    margin: 30px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+} 
+
+#resultContainer{
+    font-size: 30px;
+    color: #000;
+}
